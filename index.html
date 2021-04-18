@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="static/style.css" />
+    <title>Bubble</title>
+  </head>
+  <body>
+    <div id="UI" class="modal">
+      <div class="content">
+        <div class="modal-header">
+          <h2>Fin de Partie</h2>
+        </div>
+        <div class="modal-body">
+          <p id="score">un certain nombre de point</p>
+          <p id="Temps-en-vie">Un certain temps</p>
+        </div>
+        <div class="modal-footer">
+          <div>
+            <button id="restart">Recommencer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="canvas1"></canvas>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/humanize-duration/3.25.1/humanize-duration.min.js"
+      integrity="sha512-ocsrKFSG09J7wmEr4LOxMkQMKNm8mo4i8aVslPOVS731Uor4sMQeXbi+lt5rymahZZe3CctXuomBPsJ4v5ZPfQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="static/class/Dragon.js"></script>
+    <script src="static/class/Vie.js"></script>
+    <script src="static/class/Player.js"></script>
+    <script src="static/class/Cloud.js"></script>
+    <script src="static/class/BossB.js"></script>
+    <script src="static/class/BossR.js"></script>
+    <script src="static/class/BossJ.js"></script>
+    <script src="static/class/BossV.js"></script>
+    <script src="static/class/BossObject.js"></script>
+    <script src="static/assets/js/bar.js"></script>
+    <script src="static/index.js"></script>
+  </body>
+</html>

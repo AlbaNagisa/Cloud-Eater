@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "*"
+  },
+  "name": "bubble",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alban9562/Cloud-Eater.git"
+  },
+  "author": "AlbaNagisa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alban9562/Cloud-Eater/issues"
+  },
+  "homepage": "https://github.com/Alban9562/Cloud-Eater#readme",
+  "description": ""
+}
